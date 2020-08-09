@@ -1,0 +1,58 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 16px;
+  font-style: normal;
+  background-color: white;
+  color: black;
+  border: solid rgb(200, 100, 89) 2px;
+  margin: 25px;
+}
+
+.stand-logo{
+  margin-left: 300px;
+  padding: 50px;
+}
+
+.navBar{
+  overflow: hidden;
+  background-color: white;
+  text-decoration: none;
+}
+
+.navBar a{
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+header > .navBar > ul > li {
+display: inline;
+margin-left: 220px;
+
+}
+.navBar a:link {
+  color: rgb(200, 100, 89);
+}
+.navBar a:visited {
+  color: rgb(200, 100, 89);
+}
+
+.navBar a:hover{
+  background-color: rgb(200, 100, 89);
+  color: white;
+}
+
+.page-divider, .page-div2{
+  border: solid rgb(200, 100, 89) 2px;
+  margin: 40px;
+  z-index: -1;
+}
+
+.h1-pat{
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+}
