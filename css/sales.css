@@ -1,108 +1,99 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
-
 header {
   height: 100px;
-  background-color: rgb(200, 100, 89);
+  background-color: #444;
 }
-
 header nav {
   width: 960px;
   margin: auto;
 }
-
 header img {
   margin-top: 15px;
   float: left;
-  width: 100px;
 }
-
 header ul {
   float: left;
 }
-
 header li {
   display: inline;
   line-height: 80px;
   margin-left: 85px;
 }
-
 header li:first-child {
   margin-left: 30px;
 }
-
 header a {
   text-decoration: none;
-  color: white;
+  color: #aaa;
+  
 }
-
 main {
   width: 960px;
   margin: auto;
-}
 
+}
 main img {
   margin-top: 30px;
-  width: 100%;
-}
 
+}
 main li:first-child {
   margin-left: 0px;
-}
 
+}
 main li {
   margin-left: 30px;
   float: left;
 }
-
 main h2 {
   font-size: 20px;
   font-weight: bold;
   margin-left: 30px;
 }
-
 main article {
   width: 50%;
   float: right;
   margin-top: 30px;
 }
-
 main p {
   font-style: italic;
   margin-left: 30px;
   line-height: 20px;
   overflow: auto;
-  height: 370px;
+  height: 330px;
   margin-top: 5px;
-}
 
-section img {
-  width: 50%;
 }
-
-footer {
-  background-color: rgb(200, 100, 89);
-  left: 0;
-  bottom: 0;
-  width: 100%;
+main div {
+  background-color: #111;
+  color: #fff;
+  display: inline-block;
+  margin: 10px 30px;
+  padding: 10px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+main div:hover {
+  background-color: #444;
   color: white;
-  text-align: center;
-  
+  transition: 350ms;
+}
+footer {
+  height: 125px;
+  background-color: #444;
+  margin-top: 30px;
 }
 
-.seattle {
-  float: left;
+table{
+  border: solid 1px rgb(200, 100, 89);
+  margin: auto;
 }
 
-.lima {
-  float: right;
+table td{
+  border: solid 1px rgb(200, 100, 89);
 }
 
-.dubai {
-  float: left;
-}
-
-.tokyo {
-  float: right;
+table th {
+  border: solid 1px rgb(200, 100, 89);
 }
