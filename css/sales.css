@@ -48,8 +48,10 @@ margin-left: 220px;
   z-index: -1;
 }
 
-.h1-pat{
+.pat{
   text-align: center;
+  font-size: xx-large;
+  font-weight: bold;
 }
 
 footer {
@@ -63,7 +65,21 @@ footer {
   display: inline-block;
 }
 
-table{
+#form {
+  border: 1px solid salmon;
+  margin: 50px;
+  padding: 15px;
+}
+fieldset legend{
+  text-align: center;
+  padding: 0px;
+  line-height: 50px;
+}
+fieldset label {
+  padding: 10px;
+}
+
+#table{
   border: solid 1px rgb(200, 100, 89);
   margin: auto;
 }
@@ -73,7 +89,7 @@ table td{
   padding: 5px;
 }
 
-table th {
-  border: solid 1px rgb(200, 100, 89);
+th, tfoot {
+  border: solid 2px rgb(200, 100, 89);
   padding: 5px;
 }
